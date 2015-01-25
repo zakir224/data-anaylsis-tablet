@@ -57,7 +57,6 @@ public class Login extends Activity implements OnClickListener,NetworkConnection
 		
 		if(TextUtils.isEmpty(user.getText().toString()))
 			{
-			
 			user.setError("Insert Username");
 			focusView = user;
 			cancel = true;

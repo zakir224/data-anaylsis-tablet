@@ -136,6 +136,56 @@ public class PatientRecord {
     private double saline5;
     private double saline6;
 
+    public double getTotalDial() {
+        return totalDial;
+    }
+
+    public void setTotalDial() {
+        this.totalDial = this.dial1+this.dial2+this.dial3+this.dial4+this.dial5+this.dial6;
+    }
+
+    public void setTotalDial(double totalDial) {
+        this.totalDial = totalDial;
+    }
+
+
+    public double getNgoAmount() {
+        return ngoAmount;
+    }
+
+    public void setNgoAmount(double ngoAmount) {
+        this.ngoAmount = ngoAmount;
+    }
+
+    public double getTotalIntale() {
+        return totalIntale;
+    }
+
+    public void setTotalIntale() {
+        this.totalIntale = this.total4+this.totalDial+this.ngoAmount;
+    }
+
+    public void setTotalIntale(double totalIntale) {
+        this.totalIntale = totalIntale;
+    }
+
+    public double getTotalBalance() {
+        return totalBalance;
+    }
+
+    public void setTotalBalance() {
+        this.totalBalance = this.getTotalIntale() - this.getTotal_out();
+    }
+
+    public void setTotalBalance(double totalBalance) {
+        this.totalBalance = totalBalance;
+    }
+
+    private double totalDial;
+    private double ngoAmount;
+    private double totalIntale;
+    private double totalBalance;
+
     public double getSaline6() {
         return saline6;
     }

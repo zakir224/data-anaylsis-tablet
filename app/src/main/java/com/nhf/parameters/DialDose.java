@@ -34,7 +34,10 @@ public class DialDose extends BaseForm implements IvInfusionCalculatorFragment.I
     LinkedHashMap<Integer, EditText> drugAmount;
     LinkedHashMap<Integer, EditText> saline;
     LinkedHashMap<Integer, Spinner> spinnerUnit;
-
+    EditText totalDial;
+    EditText ngoAmount;
+    EditText totalIntale;
+    EditText totalBalance;     
 
     public DialDose() {
 
@@ -99,7 +102,13 @@ public class DialDose extends BaseForm implements IvInfusionCalculatorFragment.I
             spinnerEntry.getValue().setSelection(spinnerUnits[index++]);
         }
 
+        totalDial.setText(IOUtil.getString(patientRecord.getTotalDial()));
+        ngoAmount.setText(IOUtil.getString(patientRecord.getNgoAmount()));
+        totalIntale.setText(IOUtil.getString(patientRecord.getTotalIntale()));
+        totalBalance.setText(IOUtil.getString(patientRecord.getTotalBalance()));
         weight.setText(IOUtil.getString(patientRecord.getWeight()));
+
+
     }
 
     @Override
@@ -138,6 +147,11 @@ public class DialDose extends BaseForm implements IvInfusionCalculatorFragment.I
         patientRecord.setDialUnit4(spinnerUnit.get(R.id.unit_spinner_4).getSelectedItemPosition());
         patientRecord.setDialUnit5(spinnerUnit.get(R.id.unit_spinner_5).getSelectedItemPosition());
         patientRecord.setDialUnit6(spinnerUnit.get(R.id.unit_spinner_6).getSelectedItemPosition());
+
+        patientRecord.setTotalDial();
+        patientRecord.setNgoAmount(IOUtil.getDouble(ngoAmount.getText().toString()));
+        patientRecord.setTotalIntale();
+        patientRecord.setTotalBalance();
 
     }
 
@@ -184,6 +198,11 @@ public class DialDose extends BaseForm implements IvInfusionCalculatorFragment.I
         spinnerUnit.put(R.id.unit_spinner_4,(Spinner) rootView.findViewById(R.id.unit_spinner_4));
         spinnerUnit.put(R.id.unit_spinner_5,(Spinner) rootView.findViewById(R.id.unit_spinner_5));
         spinnerUnit.put(R.id.unit_spinner_6,(Spinner) rootView.findViewById(R.id.unit_spinner_6));
+
+        totalDial = (EditText)rootView.findViewById(R.id.total_dial);
+        ngoAmount = (EditText)rootView.findViewById(R.id.ngo_amount);
+        totalIntale = (EditText)rootView.findViewById(R.id.total_intale);
+        totalBalance =(EditText)rootView.findViewById(R.id.total_balance);
 
         for(Map.Entry<Integer,Spinner> spinnerEntry : spinnerUnit.entrySet()){
             ((Spinner)spinnerEntry.getValue()).setAdapter(new CustomSpinnerAdapter(getActivity(),android.R.layout.simple_list_item_single_choice,getResources().getStringArray(R.array.dial_dose_unit)));

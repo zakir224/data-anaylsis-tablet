@@ -153,7 +153,10 @@ public class IcuParameters {
             patientRecord.setSaline4(jsonArray.getJSONObject(0).getDouble("saline_4"));
             patientRecord.setSaline5(jsonArray.getJSONObject(0).getDouble("saline_5"));
             patientRecord.setSaline6(jsonArray.getJSONObject(0).getDouble("saline_6"));
-
+            patientRecord.setTotalDial(jsonArray.getJSONObject(0).getDouble("total_dial"));
+            patientRecord.setNgoAmount(jsonArray.getJSONObject(0).getDouble("ngo_amount"));
+            patientRecord.setTotalIntale(jsonArray.getJSONObject(0).getDouble("total_intale"));
+            patientRecord.setTotalBalance(jsonArray.getJSONObject(0).getDouble("total_balance"));
             Log.d("icu_load","Initializing PatientRecord completed");
             Log.d("icu_load",patientRecord.getTime_picked()+" "+patientRecord.getTimeId()+" "+patientRecord.getPod());
         } catch (Exception e) {
@@ -284,7 +287,10 @@ public class IcuParameters {
            postParameters.add(new BasicNameValuePair("drug_amount_4",String.valueOf(patientRecord.getDrugAmount4())));
            postParameters.add(new BasicNameValuePair("drug_amount_5",String.valueOf(patientRecord.getDrugAmount5())));
            postParameters.add(new BasicNameValuePair("drug_amount_6",String.valueOf(patientRecord.getDrugAmount6())));
-
+           postParameters.add(new BasicNameValuePair("total_dial",String.valueOf(patientRecord.getTotalDial())));
+           postParameters.add(new BasicNameValuePair("ngo_amount",String.valueOf(patientRecord.getNgoAmount())));
+           postParameters.add(new BasicNameValuePair("total_intale",String.valueOf(patientRecord.getTotalIntale())));
+           postParameters.add(new BasicNameValuePair("total_balance",String.valueOf(patientRecord.getTotalBalance())));
 
            Log.d("update",patientRecord.getTime_picked()+" "+
                    patientRecord.getTimeId()+" "+patientRecord.getPod()+" "+patientRecord.getAmtUrine()+" "+patientRecord.getDoctor_name3());

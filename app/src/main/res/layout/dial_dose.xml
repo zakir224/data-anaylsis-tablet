@@ -260,5 +260,64 @@
             android:textColor="@android:color/black"
             android:enabled="false" />
     </LinearLayout>
+
+        <LinearLayout
+            style="@style/AppTheme.ParameterLinearLayout">
+
+
+            <TextView
+                style="@style/AppTheme.textView"
+                android:text="Total Dial:" />
+
+            <EditText
+                android:id="@+id/total_dial"
+                android:editable="false"
+                android:maxLength="7"
+                style="@style/AppTheme.editText.parameters.dial_dose" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/AppTheme.ParameterLinearLayout">
+
+
+            <TextView
+                style="@style/AppTheme.textView"
+                android:text="NG/O Amount:" />
+
+            <EditText
+                android:id="@+id/ngo_amount"
+                android:maxLength="7"
+                style="@style/AppTheme.editText.parameters.dial_dose" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/AppTheme.ParameterLinearLayout">
+
+
+            <TextView
+                style="@style/AppTheme.textView"
+                android:text="Total Intale:" />
+
+            <EditText
+                android:id="@+id/total_intale"
+                android:editable="false"
+                android:maxLength="7"
+                style="@style/AppTheme.editText.parameters.dial_dose" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/AppTheme.ParameterLinearLayout">
+
+
+            <TextView
+                style="@style/AppTheme.textView"
+                android:text="Total Balance:" />
+
+            <EditText
+                android:id="@+id/total_balance"
+                android:editable="false"
+                android:maxLength="7"
+                style="@style/AppTheme.editText.parameters.dial_dose" />
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>
