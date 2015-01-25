@@ -4,14 +4,16 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <include
-        layout="@layout/list_header"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"/>
+    <!--<include-->
+        <!--layout="@layout/list_header"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="48dp"/>-->
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:divider="#ffffffff"
+        android:dividerHeight="4px"
         android:id="@android:id/list" />
 
 </LinearLayout>
