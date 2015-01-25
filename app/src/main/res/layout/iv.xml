@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/AppTheme.background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="45dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+                <LinearLayout
+                    style="@style/AppTheme.ParameterLinearLayout"
+                    >
+
+                    <TextView
+                        android:id="@+id/transfus"
+                        style="@style/AppTheme.textView"
+                        android:text="Transfus"
+                        />
+
+                    <EditText
+                        android:id="@+id/transfus_etxt"
+                        style="@style/AppTheme.editText.parameters"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="Transfus"
+                         >
+
+                        <requestFocus />
+                    </EditText>
+                    <TextView
+                        android:id="@+id/albumin"
+                        style="@style/AppTheme.textView"
+                        android:text="Albumin"
+                        />
+
+                    <EditText
+                        android:id="@+id/albumin_etxt"
+                        style="@style/AppTheme.editText.parameters"
+                        android:ems="10"
+                        android:hint="Albumin"
+                        android:inputType="number"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/AppTheme.ParameterLinearLayout" >
+
+                    <TextView
+                        android:id="@+id/inffus"
+                        style="@style/AppTheme.textView"
+                        android:text="Inffus"
+                        />
+
+                    <EditText
+                        android:id="@+id/inffus_etxt"
+                        style="@style/AppTheme.editText.parameters"
+                        android:ems="10"
+                        android:hint="Inffus"
+                        android:inputType="number"
+                         />
+                    <TextView
+                        android:id="@+id/total"
+                        style="@style/AppTheme.textView"
+                        android:text="Total"
+                        />
+
+                    <EditText
+                        android:id="@+id/total_etxt"
+                        style="@style/AppTheme.editText.parameters"
+                        android:ems="10"
+                        android:hint="Total"
+                        android:inputType="numberDecimal"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/AppTheme.ParameterLinearLayout" >
+
+                    <TextView
+                        android:id="@+id/bs"
+                        style="@style/AppTheme.textView"
+                        android:text="B/S"
+                        />
+
+                    <EditText
+                        android:id="@+id/bs_etxt"
+                        style="@style/AppTheme.editText.parameters"
+                        android:ems="10"
+                        android:hint="B/S"
+                        android:inputType="number"
+                         />
+                    <TextView
+                        android:id="@+id/dname"
+                        style="@style/AppTheme.textView"
+                        android:text="Doctor name"
+                        />
+
+                    <EditText
+                        android:id="@+id/dname_etxt"
+                        style="@style/AppTheme.editText.parameters"
+                        android:ems="10"
+                        android:hint="Doctor"
+                        android:inputType="text"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/AppTheme.ParameterLinearLayout" >
+
+                    <TextView
+                        android:id="@+id/ns"
+                        style="@style/AppTheme.textView"
+                        android:text="N/S"
+                        />
+
+                    <EditText
+                        android:id="@+id/ns_etxt"
+                        style="@style/AppTheme.editText.parameters"
+                        android:ems="10"
+                        android:hint="N/S"
+                        android:inputType="number"
+                         />
+
+                    <EditText
+                        style="@style/AppTheme.editText.parameters"
+                        android:visibility="invisible"/>
+                    <EditText
+                        style="@style/AppTheme.editText.parameters"
+                        android:visibility="invisible"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+</ScrollView>

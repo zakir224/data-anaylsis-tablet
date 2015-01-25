@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    style="@style/AppTheme.background"
+    android:padding="30dp">
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:thumbTextPadding="20dp"
+        android:switchPadding="40dp"
+        android:textOff="Pump"
+        android:textOn="Gravity"
+        android:text="Mode"
+        android:id="@+id/reportSwitch"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true" />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/reportSwitch"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New RadioButton"
+            android:id="@+id/radioButton" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New RadioButton"
+            android:id="@+id/radioButton2" />
+    </RadioGroup>
+
+    <EditText
+        style="@style/AppTheme.editText.login"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/doseEt"
+        android:layout_below="@+id/radioGroup"
+        android:layout_alignParentLeft="true"
+        android:hint="Dose"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false" />
+
+    <EditText
+        style="@style/AppTheme.editText.login"
+        android:inputType="numberDecimal"
+        android:hint="Weight"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/doseEt"
+        android:layout_alignLeft="@+id/doseEt"
+        android:layout_alignParentRight="false" />
+
+    <EditText
+        style="@style/AppTheme.editText.login"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="total dose in decimal"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignParentRight="false" />
+
+    <EditText
+        style="@style/AppTheme.editText.login"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="total volume"
+        android:id="@+id/editText4"
+        android:layout_below="@+id/editText3"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignParentRight="false" />
+
+    <EditText
+        style="@style/AppTheme.editText.login"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="drop factor"
+        android:id="@+id/editText5"
+        android:layout_below="@+id/editText4"
+        android:layout_alignLeft="@+id/editText4" />
+
+</RelativeLayout>

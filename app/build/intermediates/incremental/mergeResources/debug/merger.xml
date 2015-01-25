@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="unspecified"><source path="E:\icuUpdate\app\build\intermediates\exploded-aar\icuUpdate\tableFixHeaders\unspecified\res"><file name="shadow_bottom" path="E:\icuUpdate\app\build\intermediates\exploded-aar\icuUpdate\tableFixHeaders\unspecified\res\drawable\shadow_bottom.xml" qualifiers="" type="drawable"/><file name="shadow_left" path="E:\icuUpdate\app\build\intermediates\exploded-aar\icuUpdate\tableFixHeaders\unspecified\res\drawable\shadow_left.xml" qualifiers="" type="drawable"/><file name="shadow_right" path="E:\icuUpdate\app\build\intermediates\exploded-aar\icuUpdate\tableFixHeaders\unspecified\res\drawable\shadow_right.xml" qualifiers="" type="drawable"/><file name="shadow_top" path="E:\icuUpdate\app\build\intermediates\exploded-aar\icuUpdate\tableFixHeaders\unspecified\res\drawable\shadow_top.xml" qualifiers="" type="drawable"/><file path="E:\icuUpdate\app\build\intermediates\exploded-aar\icuUpdate\tableFixHeaders\unspecified\res\values\values.xml" qualifiers=""><dimen name="shadow_size">8dip</dimen><item name="tag_row" type="id"/><item name="tag_column" type="id"/><color name="shadow_start">#80000000</color><item name="tag_type_view" type="id"/><color name="shadow_end">#00000000</color></file></source></dataSet><dataSet config="main"><source path="E:\icuUpdate\app\src\main\res"><file name="btn_dropdown" path="E:\icuUpdate\app\src\main\res\drawable\btn_dropdown.xml" qualifiers="" type="drawable"/><file name="button" path="E:\icuUpdate\app\src\main\res\drawable\button.xml" qualifiers="" type="drawable"/><file name="item_table1" path="E:\icuUpdate\app\src\main\res\drawable\item_table1.xml" qualifiers="" type="drawable"/><file name="progress" path="E:\icuUpdate\app\src\main\res\drawable\progress.gif" qualifiers="" type="drawable"/><file name="dropdown_icon" path="E:\icuUpdate\app\src\main\res\drawable-hdpi\dropdown_icon.gif" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="E:\icuUpdate\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="map" path="E:\icuUpdate\app\src\main\res\drawable-hdpi\map.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="map1" path="E:\icuUpdate\app\src\main\res\drawable-hdpi\map1.png" qualifiers="hdpi-v4" type="drawable"/><file name="play" path="E:\icuUpdate\app\src\main\res\drawable-hdpi\play.png" qualifiers="hdpi-v4" type="drawable"/><file name="profile" path="E:\icuUpdate\app\src\main\res\drawable-hdpi\profile.png" qualifiers="hdpi-v4" type="drawable"/><file name="dropdown_icon" path="E:\icuUpdate\app\src\main\res\drawable-mdpi\dropdown_icon.gif" qualifiers="mdpi-v4" type="drawable"/><file name="edit" path="E:\icuUpdate\app\src\main\res\drawable-mdpi\edit.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="E:\icuUpdate\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="play" path="E:\icuUpdate\app\src\main\res\drawable-mdpi\play.png" qualifiers="mdpi-v4" type="drawable"/><file name="profile" path="E:\icuUpdate\app\src\main\res\drawable-mdpi\profile.png" qualifiers="mdpi-v4" type="drawable"/><file name="blood_gas" path="E:\icuUpdate\app\src\main\res\drawable-xhdpi\blood_gas.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_dropdown_normal" path="E:\icuUpdate\app\src\main\res\drawable-xhdpi\btn_dropdown_normal.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_dropdown_pressed" path="E:\icuUpdate\app\src\main\res\drawable-xhdpi\btn_dropdown_pressed.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_dropdown_selected" path="E:\icuUpdate\app\src\main\res\drawable-xhdpi\btn_dropdown_selected.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="dialdose" path="E:\icuUpdate\app\src\main\res\drawable-xhdpi\dialdose.png" qualifiers="xhdpi-v4" type="drawable"/><file name="dropdown_icon" path="E:\icuUpdate\app\src\main\res\drawable-xhdpi\dropdown_icon.gif" qualifiers="xhdpi-v4" type="drawable"/><file name="heart" path="E:\icuUpdate\app\src\main\res\drawable-xhdpi\heart.png" qualifiers="xhdpi-v4" type="drawable"/><file name="heart_icon" path="E:\icuUpdate\app\src\main\res\drawable-xhdpi\heart_icon.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="E:\icuUpdate\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher2" path="E:\icuUpdate\app\src\main\res\drawable-xhdpi\ic_launcher2.png" qualifiers="xhdpi-v4" type="drawable"/><file name="iv" path="E:\icuUpdate\app\src\main\res\drawable-xhdpi\iv.png" qualifiers="xhdpi-v4" type="drawable"/><file name="logo" path="E:\icuUpdate\app\src\main\res\drawable-xhdpi\logo.png" qualifiers="xhdpi-v4" type="drawable"/><file name="monitor" path="E:\icuUpdate\app\src\main\res\drawable-xhdpi\monitor.png" qualifiers="xhdpi-v4" type="drawable"/><file name="output" path="E:\icuUpdate\app\src\main\res\drawable-xhdpi\output.png" qualifiers="xhdpi-v4" type="drawable"/><file name="play" path="E:\icuUpdate\app\src\main\res\drawable-xhdpi\play.png" qualifiers="xhdpi-v4" type="drawable"/><file name="profile" path="E:\icuUpdate\app\src\main\res\drawable-xhdpi\profile.png" qualifiers="xhdpi-v4" type="drawable"/><file name="valentine_heart_icon" path="E:\icuUpdate\app\src\main\res\drawable-xhdpi\valentine_heart_icon.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ventilator" path="E:\icuUpdate\app\src\main\res\drawable-xhdpi\ventilator.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="E:\icuUpdate\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="play" path="E:\icuUpdate\app\src\main\res\drawable-xxhdpi\play.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="profile" path="E:\icuUpdate\app\src\main\res\drawable-xxhdpi\profile.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="blood_gas_bio" path="E:\icuUpdate\app\src\main\res\layout\blood_gas_bio.xml" qualifiers="" type="layout"/><file name="bottom_layout" path="E:\icuUpdate\app\src\main\res\layout\bottom_layout.xml" qualifiers="" type="layout"/><file name="dial_dose" path="E:\icuUpdate\app\src\main\res\layout\dial_dose.xml" qualifiers="" type="layout"/><file name="fragment_parameters_dummy" path="E:\icuUpdate\app\src\main\res\layout\fragment_parameters_dummy.xml" qualifiers="" type="layout"/><file name="item_table1" path="E:\icuUpdate\app\src\main\res\layout\item_table1.xml" qualifiers="" type="layout"/><file name="item_table1_header" path="E:\icuUpdate\app\src\main\res\layout\item_table1_header.xml" qualifiers="" type="layout"/><file name="iv" path="E:\icuUpdate\app\src\main\res\layout\iv.xml" qualifiers="" type="layout"/><file name="iv_calc" path="E:\icuUpdate\app\src\main\res\layout\iv_calc.xml" qualifiers="" type="layout"/><file name="list_header" path="E:\icuUpdate\app\src\main\res\layout\list_header.xml" qualifiers="" type="layout"/><file name="list_tem" path="E:\icuUpdate\app\src\main\res\layout\list_tem.xml" qualifiers="" type="layout"/><file name="login" path="E:\icuUpdate\app\src\main\res\layout\login.xml" qualifiers="" type="layout"/><file name="monitoring" path="E:\icuUpdate\app\src\main\res\layout\monitoring.xml" qualifiers="" type="layout"/><file name="output" path="E:\icuUpdate\app\src\main\res\layout\output.xml" qualifiers="" type="layout"/><file name="parameters" path="E:\icuUpdate\app\src\main\res\layout\parameters.xml" qualifiers="" type="layout"/><file name="parameters_tile" path="E:\icuUpdate\app\src\main\res\layout\parameters_tile.xml" qualifiers="" type="layout"/><file name="patient_list" path="E:\icuUpdate\app\src\main\res\layout\patient_list.xml" qualifiers="" type="layout"/><file name="patient_list_custom" path="E:\icuUpdate\app\src\main\res\layout\patient_list_custom.xml" qualifiers="" type="layout"/><file name="patient_list_header" path="E:\icuUpdate\app\src\main\res\layout\patient_list_header.xml" qualifiers="" type="layout"/><file name="patient_report" path="E:\icuUpdate\app\src\main\res\layout\patient_report.xml" qualifiers="" type="layout"/><file name="patient_selection_dialog" path="E:\icuUpdate\app\src\main\res\layout\patient_selection_dialog.xml" qualifiers="" type="layout"/><file name="report_monitoring_param" path="E:\icuUpdate\app\src\main\res\layout\report_monitoring_param.xml" qualifiers="" type="layout"/><file name="report_monitoring_param_cont" path="E:\icuUpdate\app\src\main\res\layout\report_monitoring_param_cont.xml" qualifiers="" type="layout"/><file name="screen_1" path="E:\icuUpdate\app\src\main\res\layout\screen_1.xml" qualifiers="" type="layout"/><file name="screen_2" path="E:\icuUpdate\app\src\main\res\layout\screen_2.xml" qualifiers="" type="layout"/><file name="screen_3" path="E:\icuUpdate\app\src\main\res\layout\screen_3.xml" qualifiers="" type="layout"/><file name="spinner_row" path="E:\icuUpdate\app\src\main\res\layout\spinner_row.xml" qualifiers="" type="layout"/><file name="ventilator" path="E:\icuUpdate\app\src\main\res\layout\ventilator.xml" qualifiers="" type="layout"/><file name="ventilator_report" path="E:\icuUpdate\app\src\main\res\layout\ventilator_report.xml" qualifiers="" type="layout"/><file name="login" path="E:\icuUpdate\app\src\main\res\menu\login.xml" qualifiers="" type="menu"/><file name="main" path="E:\icuUpdate\app\src\main\res\menu\main.xml" qualifiers="" type="menu"/><file name="parameters" path="E:\icuUpdate\app\src\main\res\menu\parameters.xml" qualifiers="" type="menu"/><file name="patient_list" path="E:\icuUpdate\app\src\main\res\menu\patient_list.xml" qualifiers="" type="menu"/><file path="E:\icuUpdate\app\src\main\res\values\colors.xml" qualifiers=""><color name="odd">#79CFFF</color><color name="even">#ff00a5d8</color><color name="background">#00BFFF</color><color name="button_pressed">#ff009dd2</color><color name="button_normal">#ff0082ae</color><color name="button_focused">#ff0078a1</color></file><file path="E:\icuUpdate\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_vertical_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="table_height">50dp</dimen><dimen name="table_width">100dp</dimen></file><file path="E:\icuUpdate\app\src\main\res\values\strings.xml" qualifiers=""><string name="network_exeption_msg"> must implement NetworkStateDialogListener</string><string name="username">Username</string><string name="dial_text">Dial(ml/h)</string><string-array name="blood_type">
+        <item>ABG</item>
+        <item>VBG</item>
+        <item>CAP</item>
+    </string-array><string name="dose_text">Dose</string><string-array name="dial_dose_unit">
+        <item>mcg/kg/min</item>
+        <item>mg/kg/min</item>
+        <item>mcg/kg/hr</item>
+        <item>mg/kg/hr</item>
+        <item>unit/kg/hr</item>
+        <item>unit/kg/min</item>
+    </string-array><string name="enter">Enter</string><string name="saline_text">Saline(ml)</string><string name="dose">Dose</string><string name="login">Login</string><string-array name="timePick">
+        <item>8.30</item>
+        <item>9.30</item>
+        <item>10.30</item>
+        <item>11.30</item>
+        <item>12.30</item>
+        <item>13.30</item>
+        <item>14.30</item>
+        <item>15.30</item>
+        <item>16.30</item>
+        <item>17.30</item>
+        <item>18.30</item>
+        <item>19.30</item>
+        <item>20.30</item>
+        <item>21.30</item>
+        <item>22.30</item>
+        <item>23.30</item>
+        <item>0.30</item>
+        <item>1.30</item>
+        <item>2.30</item>
+        <item>3.30</item>
+        <item>4.30</item>
+        <item>5.30</item>
+        <item>6.30</item>
+        <item>7.30</item>
+    </string-array><string name="weight">Weight</string><string name="hello_world">Hello world!</string><string name="dial">Dial</string><string-array name="pprl">
+        <item>0</item>
+        <item>1+</item>
+        <item>2+</item>
+    </string-array><string name="action_settings">Settings</string><string-array name="day">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+    </string-array><string name="app_name">ICU</string><string name="password">Password</string><string name="unit_text">Unit</string><string name="drug_amount_text">Drug amount</string><string name="search_hint">Search patient</string><string name="title_activity_main">MainActivity</string><string name="search_string">Search</string><string-array name="peri">
+        <item>Warm</item>
+        <item>Cold</item>
+    </string-array><string name="patientListActivity">Patient List</string><string-array name="rhythm">
+        <item>Sinus</item>
+        <item>Nodal</item>
+        <item>Pacing</item>
+    </string-array><string name="title_section1">Section 1</string><string name="title_section3">Section 3</string><string name="title_section2">Section 2</string></file><file path="E:\icuUpdate\app\src\main\res\values\strings_activity_login.xml" qualifiers=""><string name="prompt_email">Email</string><string name="action_sign_in_register"><b>Sign in</b> or register</string><string name="action_sign_in_short">Sign in</string><string name="error_field_required">This field is required</string><string name="error_incorrect_password">This password is incorrect</string><string name="title_activity_login">Sign in</string><string name="prompt_password">Password</string><string name="error_invalid_password">This password is too short</string><string name="action_forgot_password">Recover lost password</string><string name="error_invalid_email">This email address is invalid</string><string name="login_progress_signing_in">Signing in…</string></file><file path="E:\icuUpdate\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme.editText">
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style><style name="AppTheme.ProgressDialog" parent="AppTheme.ProgressDialog">
+        <item name="android:background">@android:color/holo_blue_bright</item>
+        <item name="android:dividerHeight">2dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style><style name="AppTheme.ParameterLinearLayout" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style><style name="AppTheme.textView" parent="AppTheme">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:color">@android:color/black</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style><style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="AppTheme.background">@style/AppTheme.background</item>-->
+        <!--<item name="AppTheme.editText">@style/AppTheme.editText</item>-->
+    </style><style name="AppTheme.spinner.list" parent="AppTheme">
+        <item name="android:height">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:paddingLeft">10dp</item>
+        <!--<item name="android:background">@drawable/btn_dropdown</item>-->
+    </style><style name="AppTheme.editText.login" parent="AppTheme.editText">
+        <item name="android:width">350dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style><style name="AppTheme.editText.parameters" parent="AppTheme.editText">
+        <item name="android:width">120dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_weight">1</item>
+    </style><style name="AppTheme.alternate" parent="AppTheme">
+        <item name="android:background">@android:color/darker_gray</item>
+    </style><style name="AppTheme.button">
+        <item name="android:height">30dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">#ff0082ae</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style><style name="AppTheme.editText.parameters.dial_dose" parent="AppTheme.editText.parameters">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:ems">10</item>
+        <item name="android:hint">00.00</item>
+    </style><style name="AppTheme.textView.reportHeader" parent="AppTheme.textView">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="AppTheme.background">
+        <item name="android:background">#33B5E5</item>
+        <!--<item name="android:background">#00BFFF</item>-->
+        <!--<item name="android:background">@android:color/holo_green_light</item>-->
+    </style><style name="AppTheme.editText.podTimeSelection" parent="AppTheme.editText.login">
+        <item name="android:layout_marginTop">5dp</item>
+    </style><style name="AppTheme.spinner.parameters" parent="AppTheme.spinner.list">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <!--<item name="android:background">@android:color/white</item>-->
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:layout_weight">1</item>
+    </style></file><file path="E:\icuUpdate\app\src\main\res\values-large\styles.xml" qualifiers="large-v4"><style name="LoginFormContainer">
+        <item name="android:layout_width">400dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">16dp</item>
+    </style></file><file path="E:\icuUpdate\app\src\main\res\values-sw720dp-land\dimens.xml" qualifiers="sw720dp-land-v13"><dimen name="activity_horizontal_margin">128dp</dimen></file><file path="E:\icuUpdate\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="E:\icuUpdate\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file><file name="searchable" path="E:\icuUpdate\app\src\main\res\xml\searchable.xml" qualifiers="" type="xml"/></source><source path="E:\icuUpdate\app\build\generated\res\rs\debug"/><source path="E:\icuUpdate\app\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="E:\icuUpdate\app\src\debug\res"/></dataSet><mergedItems/></merger>

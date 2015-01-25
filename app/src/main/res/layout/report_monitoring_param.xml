@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="10dp"-->
+        <!--android:orientation="horizontal" >-->
+
+        <!--<TextView-->
+            <!--style="@style/AppTheme.textView.reportHeader"-->
+            <!--android:text="Time"/>-->
+
+        <!--<TextView-->
+            <!--style="@style/AppTheme.textView.reportHeader"-->
+            <!--android:text="spo2"-->
+            <!--android:id="@+id/textView19" />-->
+
+        <!--<TextView-->
+            <!--style="@style/AppTheme.textView.reportHeader"-->
+            <!--android:text="etco2"-->
+            <!--android:id="@+id/textView20" />-->
+
+        <!--<TextView-->
+            <!--style="@style/AppTheme.textView.reportHeader"-->
+            <!--android:text="rr"-->
+            <!--android:id="@+id/textView21" />-->
+
+        <!--<TextView-->
+            <!--style="@style/AppTheme.textView.reportHeader"-->
+            <!--android:text="hr/mt"-->
+            <!--android:id="@+id/textView22" />-->
+
+        <!--<TextView-->
+            <!--style="@style/AppTheme.textView.reportHeader"-->
+            <!--android:text="Rhythm"-->
+            <!--android:id="@+id/textView210" />-->
+
+        <!--<TextView-->
+            <!--style="@style/AppTheme.textView.reportHeader"-->
+            <!--android:text="sabp"-->
+            <!--android:id="@+id/textView23" />-->
+
+        <!--<TextView-->
+            <!--style="@style/AppTheme.textView.reportHeader"-->
+            <!--android:text="dabp"-->
+            <!--android:id="@+id/textView24" />-->
+
+        <!--<TextView-->
+            <!--style="@style/AppTheme.textView.reportHeader"-->
+            <!--android:text="mabp"-->
+            <!--android:id="@+id/textView25" />-->
+
+        <!--<TextView-->
+            <!--style="@style/AppTheme.textView.reportHeader"-->
+            <!--android:text="s_nibp"-->
+            <!--android:id="@+id/textView26" />-->
+
+        <!--<TextView-->
+            <!--style="@style/AppTheme.textView.reportHeader"-->
+            <!--android:text="m_nibp"-->
+            <!--android:id="@+id/textView27" />-->
+
+        <!--<TextView-->
+            <!--style="@style/AppTheme.textView.reportHeader"-->
+            <!--android:text="d_nibp"-->
+            <!--android:id="@+id/textView28" />-->
+
+        <!--<TextView-->
+            <!--style="@style/AppTheme.textView.reportHeader"-->
+            <!--android:text="p_temp"-->
+            <!--android:id="@+id/textView29" />-->
+
+        <!--<TextView-->
+            <!--style="@style/AppTheme.textView.reportHeader"-->
+            <!--android:text="s_temp"-->
+            <!--android:id="@+id/textView30" />-->
+
+        <!--<TextView-->
+            <!--style="@style/AppTheme.textView.reportHeader"-->
+            <!--android:text="c_temp"-->
+            <!--android:id="@+id/textView31" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<ScrollView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" >-->
+
+        <!--<TableLayout-->
+            <!--android:id="@+id/monitoring_table_1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:padding="10dp"-->
+            <!--android:shrinkColumns="*"-->
+            <!--android:stretchColumns="*" >-->
+
+        <!--</TableLayout>-->
+    <!--</ScrollView>-->
+    <com.inqbarna.tablefixheaders.TableFixHeaders
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

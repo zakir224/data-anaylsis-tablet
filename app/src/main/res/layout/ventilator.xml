@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    style="@style/AppTheme.background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="45dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+            <TextView
+                android:id="@+id/mode"
+                style="@style/AppTheme.textView"
+                android:text="mode" />
+
+            <EditText
+                android:id="@+id/mode_etxt"
+                style="@style/AppTheme.editText.parameters"
+                android:hint="mode"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/MAP"
+                style="@style/AppTheme.textView"
+                android:text="MAP" />
+
+            <EditText
+                android:id="@+id/MAP_etxt"
+                style="@style/AppTheme.editText.parameters"
+                android:hint="MAP"
+                android:inputType="number"
+                android:maxLength="3" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+            <TextView
+                android:id="@+id/rate"
+                style="@style/AppTheme.textView"
+                android:text="rate" />
+
+            <EditText
+                android:id="@+id/rate_etxt"
+                style="@style/AppTheme.editText.parameters"
+                android:hint="rate"
+                android:inputType="number"
+                android:maxLength="3" />
+
+            <TextView
+                android:id="@+id/TI"
+                style="@style/AppTheme.textView"
+                android:text="TI" />
+
+            <EditText
+                android:id="@+id/TI_etxt"
+                style="@style/AppTheme.editText.parameters"
+                android:hint="TI"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+            <TextView
+                android:id="@+id/RSBI"
+                style="@style/AppTheme.textView"
+                android:text="RSBI" />
+
+            <EditText
+                android:id="@+id/RSBI_etxt"
+                style="@style/AppTheme.editText.parameters"
+                android:hint="RSBI"
+                android:inputType="number"
+                android:maxLength="3" />
+
+            <TextView
+                android:id="@+id/PSUPP"
+                style="@style/AppTheme.textView"
+                android:text="PSUPP" />
+
+            <EditText
+                android:id="@+id/PSUPP_etxt"
+                style="@style/AppTheme.editText.parameters"
+                android:hint="PSUPP"
+                android:inputType="number"
+                android:maxLength="5" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+            <TextView
+                android:id="@+id/PIP"
+                style="@style/AppTheme.textView"
+                android:text="PIP" />
+
+            <EditText
+                android:id="@+id/PIP_etxt"
+                style="@style/AppTheme.editText.parameters"
+                android:hint="PIP"
+                android:inputType="number"
+                android:maxLength="3" />
+
+            <TextView
+                android:id="@+id/FiO2"
+                style="@style/AppTheme.textView"
+                android:text="FiO2" />
+
+            <EditText
+                android:id="@+id/FiO2_etxt"
+                style="@style/AppTheme.editText.parameters"
+                android:hint="FiO2"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+            <TextView
+                android:id="@+id/PEEP"
+                style="@style/AppTheme.textView"
+                android:text="PEEP" />
+
+            <EditText
+                android:id="@+id/PEEP_etxt"
+                style="@style/AppTheme.editText.parameters"
+                android:hint="PEEP"
+                android:inputType="number"
+                android:maxLength="3" />
+
+            <TextView
+                android:id="@+id/vencom"
+                style="@style/AppTheme.textView"
+                android:text="Comments" />
+
+            <EditText
+                android:id="@+id/vent_comment"
+                style="@style/AppTheme.editText.parameters"
+                android:hint="Comments"
+                android:inputType="text" />
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+            <TextView
+                android:id="@+id/IE"
+                style="@style/AppTheme.textView"
+                android:text="I:E" />
+
+            <EditText
+                android:id="@+id/IE1_etxt"
+                style="@style/AppTheme.editText.parameters"
+                android:hint="I:E"
+                android:inputType="number"
+                android:maxLength="5" />
+
+            <TextView
+                android:id="@+id/TextView15"
+                style="@style/AppTheme.textView"
+                android:layout_gravity="center"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:text=":"
+                android:textColor="@android:color/white"
+                android:textSize="23sp" />
+
+            <EditText
+                android:id="@+id/IE2_etxt"
+                style="@style/AppTheme.editText.parameters"
+                android:hint="I:E"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+            <TextView
+                android:id="@+id/TV"
+                style="@style/AppTheme.textView"
+                android:text="TV" />
+
+            <EditText
+                android:id="@+id/TV_etxt"
+                style="@style/AppTheme.editText.parameters"
+                android:hint="TV"
+                android:inputType="number"
+                android:maxLength="3" />
+
+            <EditText
+                style="@style/AppTheme.editText.parameters"
+                android:visibility="invisible" />
+
+            <EditText
+                style="@style/AppTheme.editText.parameters"
+                android:visibility="invisible" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

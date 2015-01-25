@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    style="@style/AppTheme.background">
+<RelativeLayout
+    android:layout_width="match_parent" android:layout_height="match_parent" >
+
+
+    <Spinner
+        style="@style/AppTheme.spinner.list"
+        android:id="@+id/patientList"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/patientName"
+        style="@style/AppTheme.editText.login"
+        android:layout_below="@+id/patientList"
+        android:layout_alignLeft="@+id/patientList"
+        android:textColor="@android:color/black"
+        android:enabled="false" />
+
+
+
+    <EditText
+        style="@style/AppTheme.editText.login"
+        android:id="@+id/patientAge"
+        android:layout_below="@+id/patientName"
+        android:layout_alignLeft="@+id/patientName"
+        android:textColor="@android:color/black"
+        android:enabled="false"/>
+
+    <Spinner
+        android:id="@+id/spPod"
+        android:layout_below="@+id/patientAge"
+        android:layout_centerHorizontal="true"
+        style="@style/AppTheme.spinner.list" />
+
+    <Spinner
+        style="@style/AppTheme.spinner.list"
+        android:id="@+id/spTime"
+        android:layout_below="@+id/spPod"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="@style/AppTheme.button"
+        android:text="@string/enter"
+        android:id="@+id/confirm"
+        android:layout_below="@+id/spTime"
+        android:layout_alignLeft="@+id/spTime"
+        android:layout_alignRight="@+id/spTime" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:layout_below="@+id/patient_id" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="National Heart Foundation Hospital"
+        android:id="@+id/patient_id"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient ID"
+        android:id="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/patientList"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient Name"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/patientName"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/patientAge"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POD"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/spPod"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/spTime"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
+</ScrollView>

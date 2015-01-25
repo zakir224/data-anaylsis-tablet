@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/AppTheme.background">
+
+    <LinearLayout
+        android:layout_marginTop="300dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="430dp"
+            android:layout_height="90dp"
+            android:id="@+id/monitorTile"
+            android:src="@drawable/monitor" />
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="90dp"
+            android:id="@+id/ventilatorTile"
+            android:src="@drawable/ventilator"
+            android:layout_marginLeft="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="90dp"
+            android:id="@+id/outputTile"
+            android:src="@drawable/output" />
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="90dp"
+            android:id="@+id/ivTile"
+            android:src="@drawable/iv"
+            android:layout_marginLeft="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:id="@+id/blood_gasTile"
+            android:src="@drawable/blood_gas" />
+    </LinearLayout>
+
+</LinearLayout>

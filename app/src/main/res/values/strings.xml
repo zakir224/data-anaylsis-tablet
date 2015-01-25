@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ICU</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="enter">Enter</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="patientListActivity">Patient List</string>
+    <string name="network_exeption_msg"> must implement NetworkStateDialogListener</string>
+    <string name="dial">Dial</string>
+    <string name="dose">Dose</string>
+    <string name="unit_text">Unit</string>
+    <string name="dose_text">Dose</string>
+    <string name="drug_amount_text">Drug amount</string>
+    <string name="saline_text">Saline(ml)</string>
+    <string name="dial_text">Dial(ml/h)</string>
+    <string name="weight">Weight</string>
+    <string name="search_string">Search</string>
+    <string name="search_hint">Search patient</string>
+
+    <string-array name="rhythm">
+        <item>Sinus</item>
+        <item>Nodal</item>
+        <item>Pacing</item>
+    </string-array>
+
+    <string-array name="peri">
+        <item>Warm</item>
+        <item>Cold</item>
+    </string-array>
+
+    <string-array name="timePick">
+        <item>8.30</item>
+        <item>9.30</item>
+        <item>10.30</item>
+        <item>11.30</item>
+        <item>12.30</item>
+        <item>13.30</item>
+        <item>14.30</item>
+        <item>15.30</item>
+        <item>16.30</item>
+        <item>17.30</item>
+        <item>18.30</item>
+        <item>19.30</item>
+        <item>20.30</item>
+        <item>21.30</item>
+        <item>22.30</item>
+        <item>23.30</item>
+        <item>0.30</item>
+        <item>1.30</item>
+        <item>2.30</item>
+        <item>3.30</item>
+        <item>4.30</item>
+        <item>5.30</item>
+        <item>6.30</item>
+        <item>7.30</item>
+    </string-array>
+
+
+    <string-array name="day">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+    </string-array>
+
+    <string-array name="blood_type">
+        <item>ABG</item>
+        <item>VBG</item>
+        <item>CAP</item>
+    </string-array>
+
+    <string-array name="pprl">
+        <item>0</item>
+        <item>1+</item>
+        <item>2+</item>
+    </string-array>
+
+    <string-array name="dial_dose_unit">
+        <item>mcg/kg/min</item>
+        <item>mg/kg/min</item>
+        <item>mcg/kg/hr</item>
+        <item>mg/kg/hr</item>
+        <item>unit/kg/hr</item>
+        <item>unit/kg/min</item>
+    </string-array>
+
+</resources>

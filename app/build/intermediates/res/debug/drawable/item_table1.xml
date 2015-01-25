@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <gradient
+        android:angle="270"
+        android:endColor="#ff00b4f0"
+        android:centerColor="#00BFFF"
+        android:startColor="#ff00b4f0" />
+
+</shape><!-- From: file:/E:/icuUpdate/app/src/main/res/drawable/item_table1.xml -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="48dp"
+
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Patient ID"
+        android:id="@+id/patient_id_header"
+        android:layout_weight="1.25" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Patient Name"
+        android:id="@+id/patient_name_header"
+        android:layout_weight=".75" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Age"
+        android:id="@+id/patient_age_header"
+        android:layout_weight="1.25" />
+</LinearLayout><!-- From: file:/E:/icuUpdate/app/src/main/res/layout/patient_list_header.xml -->

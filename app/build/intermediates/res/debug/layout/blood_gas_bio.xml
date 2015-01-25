@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        style="@style/AppTheme.background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="45dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp">
+
+            <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+                <TextView
+                    android:id="@+id/type_blood_gas_text"
+                    style="@style/AppTheme.textView"
+                    android:text="Type" />
+
+                <Spinner
+                    android:id="@+id/type_blood_gas_spnr"
+                    style="@style/AppTheme.spinner.parameters" />
+
+                <TextView
+                    android:id="@+id/na_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="Na" />
+
+                <EditText
+                    android:id="@+id/na_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="Na"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+                <TextView
+                    android:id="@+id/ph_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="PH" />
+
+                <EditText
+                    android:id="@+id/ph_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="PH"
+                    android:inputType="numberDecimal"
+
+                    />
+
+                <TextView
+                    android:id="@+id/k_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="K" />
+
+                <EditText
+                    android:id="@+id/k_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="K"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+                <TextView
+                    android:id="@+id/pco2_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="PCO2" />
+
+                <EditText
+                    android:id="@+id/pco2_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="PCO2"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/cl_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="Cl" />
+
+                <EditText
+                    android:id="@+id/cl_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="Cl"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+                <TextView
+                    android:id="@+id/po2_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="PO2" />
+
+                <EditText
+                    android:id="@+id/po2_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="PO2"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/anion_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="Anion gp" />
+
+                <EditText
+                    android:id="@+id/anion_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="Anion gp"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+                <TextView
+                    android:id="@+id/hco3_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="HCO3" />
+
+                <EditText
+                    android:id="@+id/hco3_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="HCO3"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/aado2_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="AaDO2" />
+
+                <EditText
+                    android:id="@+id/aado2_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:enabled="false"
+                    android:hint="AaDO2"
+                    android:inputType="numberDecimal"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+                <TextView
+                    android:id="@+id/sat_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="Sat" />
+
+                <EditText
+                    android:id="@+id/sat_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="Sat"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/lact_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="Lact" />
+
+                <EditText
+                    android:id="@+id/lact_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="Lact"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+                <TextView
+                    android:id="@+id/be_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="BE" />
+
+                <EditText
+                    android:id="@+id/be_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="BE"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/ca_mg_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="Ca/Mg" />
+
+                <EditText
+                    android:id="@+id/ca_mg_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="Ca/Mg"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+                <TextView
+                    android:id="@+id/hb_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="Hb%" />
+
+                <EditText
+                    android:id="@+id/hb_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="Hb%"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/glu_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="Glu" />
+
+                <EditText
+                    android:id="@+id/glu_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="Glu"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+
+<!-- From: file:/E:/icuUpdate/app/src/main/res/layout/blood_gas_bio.xml -->

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        style="@style/AppTheme.background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Switch
+            android:id="@+id/reportSwitch"
+            style="@style/AppTheme.textView"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:checked="false"
+            android:text="Report" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/AppTheme.textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:text="Patient ID"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/select_patient_id"
+            style="@style/AppTheme.editText.podTimeSelection"
+            android:editable="false"
+            android:text="ID" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/AppTheme.textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="4dp"
+            android:text="Patient Name"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/select_patient_name"
+            style="@style/AppTheme.editText.podTimeSelection"
+            android:editable="false"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/AppTheme.textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="4dp"
+            android:text="Age"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/patientAge"
+            style="@style/AppTheme.editText.podTimeSelection"
+            android:enabled="false"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/AppTheme.textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="4dp"
+            android:text="POD"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/spPod"
+            style="@style/AppTheme.spinner.list"
+            android:layout_marginTop="5dp" />
+
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/AppTheme.textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="4dp"
+            android:text="Time"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/spTime"
+            style="@style/AppTheme.spinner.list"
+            android:layout_marginTop="5dp" />
+
+
+        <Button
+            android:id="@+id/confirm"
+            style="@style/AppTheme.button"
+            android:layout_width="match_parent"
+            android:text="@string/enter" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/item_table1"
+    android:orientation="vertical"
+    android:id="@+id/tableLinearLayout">
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:id="@android:id/text1"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--<TextView-->
+        <!--style="@style/AppTheme.textView.reportHeader"-->
+        <!--android:id="@+id/time"-->
+        <!--android:text="Time"/>-->
+
+    <!--<TextView-->
+        <!--style="@style/AppTheme.textView.reportHeader"-->
+        <!--android:text="mode"-->
+        <!--android:id="@+id/mode" />-->
+
+    <!--<TextView-->
+        <!--style="@style/AppTheme.textView.reportHeader"-->
+        <!--android:text="rate"-->
+        <!--android:id="@+id/rate" />-->
+
+    <!--<TextView-->
+        <!--style="@style/AppTheme.textView.reportHeader"-->
+        <!--android:text="rsbi"-->
+        <!--android:id="@+id/rsbi" />-->
+
+    <!--<TextView-->
+        <!--style="@style/AppTheme.textView.reportHeader"-->
+        <!--android:text="pip"-->
+        <!--android:id="@+id/pip" />-->
+
+    <!--<TextView-->
+        <!--style="@style/AppTheme.textView.reportHeader"-->
+        <!--android:text="peep"-->
+        <!--android:id="@+id/peep" />-->
+
+    <!--<TextView-->
+        <!--style="@style/AppTheme.textView.reportHeader"-->
+        <!--android:text="I:E"-->
+        <!--android:id="@+id/ie" />-->
+
+    <!--<TextView-->
+        <!--style="@style/AppTheme.textView.reportHeader"-->
+        <!--android:text="tv"-->
+        <!--android:id="@+id/tv" />-->
+
+    <!--<TextView-->
+        <!--style="@style/AppTheme.textView.reportHeader"-->
+        <!--android:text="map"-->
+        <!--android:id="@+id/map" />-->
+
+    <!--<TextView-->
+        <!--style="@style/AppTheme.textView.reportHeader"-->
+        <!--android:text="ti"-->
+        <!--android:id="@+id/ti" />-->
+
+    <!--<TextView-->
+        <!--style="@style/AppTheme.textView.reportHeader"-->
+        <!--android:text="psupp"-->
+        <!--android:id="@+id/psupp" />-->
+
+    <!--<TextView-->
+        <!--style="@style/AppTheme.textView.reportHeader"-->
+        <!--android:text="fio2"-->
+        <!--android:id="@+id/fio2" />-->
+
+    <!--<TextView-->
+        <!--style="@style/AppTheme.textView.reportHeader"-->
+        <!--android:text="Comment"-->
+        <!--android:id="@+id/comment" />-->
+</LinearLayout>

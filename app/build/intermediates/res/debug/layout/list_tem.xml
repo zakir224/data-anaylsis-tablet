@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/profile"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Patient ID"
+            android:id="@+id/patient_id"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:layout_weight="1.5"
+            android:textColor="#ff646266"
+            android:typeface="serif" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Patient Name"
+            android:id="@+id/patient_name"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:textColor="#ff646266"
+            android:typeface="serif" />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/play" />
+
+    </LinearLayout>
+</LinearLayout><!-- From: file:/E:/icuUpdate/app/src/main/res/layout/list_tem.xml -->

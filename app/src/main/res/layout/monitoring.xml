@@ -1,0 +1,383 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        style="@style/AppTheme.background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="45dp">
+
+            <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+                <TextView
+                    android:id="@+id/spo2_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="spo2" />
+
+                <EditText
+                    android:id="@+id/spo2_etxt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="sop2"
+                    android:inputType="number"
+                    android:maxLength="3"/>
+
+                <TextView
+                    android:id="@+id/PTEMP_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="PTEMP" />
+
+                <EditText
+                    android:id="@+id/PTEMP_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="PTEMP"
+                    android:inputType="numberDecimal" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+                <TextView
+                    android:id="@+id/etco2_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="etco2" />
+
+                <EditText
+                    android:id="@+id/etco2_etxt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="etco2"
+                    android:inputType="numberDecimal"
+
+                    />
+
+                <TextView
+                    android:id="@+id/STEMP_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="STEMP" />
+
+                <EditText
+                    android:id="@+id/STEMP_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="STEMP"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+                <TextView
+                    android:id="@+id/RR_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="RR"
+
+                    />
+
+                <EditText
+                    android:id="@+id/RR_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:ems="10"
+                    android:hint="RR"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/CTEMP_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="CTEMP" />
+
+                <EditText
+                    android:id="@+id/CTEMP_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="CTEMP"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+                <TextView
+                    android:id="@+id/HRmt_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="HRm/t" />
+
+                <EditText
+                    android:id="@+id/HRmt_etxt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="HRm/t"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/CVP_txt1"
+                    style="@style/AppTheme.textView"
+                    android:text="CVP"
+
+                    />
+
+                <EditText
+                    android:id="@+id/CVP_e_txt1"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="CVP"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+                <TextView
+                    android:id="@+id/Rhythm_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="Rhythm" />
+
+                <Spinner
+                    android:id="@+id/Rhythm_spnr"
+                    style="@style/AppTheme.spinner.parameters" />
+
+                <TextView
+                    android:id="@+id/SVR_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="SVR"
+
+                    />
+
+                <EditText
+                    android:id="@+id/SVR_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="SVR"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+                <TextView
+                    android:id="@+id/SABP_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="SABP" />
+
+                <EditText
+                    android:id="@+id/SABP_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:ems="10"
+                    android:hint="SABP"
+                    android:inputType="number"
+                    android:maxLength="3" />
+
+                <TextView
+                    android:id="@+id/LA_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="LA"
+
+                    />
+
+                <EditText
+                    android:id="@+id/LA_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="LA"
+                    android:inputType="number"
+                    android:maxLength="2" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+                <TextView
+                    android:id="@+id/DABP_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="DABP" />
+
+                <EditText
+                    android:id="@+id/DABP_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="DABP"
+                    android:inputType="number"
+                    android:maxLength="3" />
+
+                <TextView
+                    android:id="@+id/PAP_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="PAP"
+
+                    />
+
+                <EditText
+                    android:id="@+id/PAP_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="PAP"
+                    android:inputType="number"
+                    android:maxLength="3" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+                <TextView
+                    android:id="@+id/MABP_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="MABP" />
+
+                <EditText
+                    android:id="@+id/MABP_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:ems="10"
+                    android:hint="MABP"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/Peri_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="Peri"
+
+                    />
+
+                <Spinner
+                    android:id="@+id/Peri_spnr"
+                    style="@style/AppTheme.spinner.parameters" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+                <TextView
+                    android:id="@+id/SNIBP_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="SNIBP" />
+
+                <EditText
+                    android:id="@+id/SNIBP_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:ems="10"
+                    android:hint="SNIBP"
+                    android:inputType="number"
+                    android:maxLength="3" />
+
+                <TextView
+                    android:id="@+id/PPR_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="PPR"
+
+                    />
+
+                <Spinner
+                    android:id="@+id/PPR_spnr"
+                    style="@style/AppTheme.spinner.parameters" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+                <TextView
+                    android:id="@+id/MNIBP_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="MNIBP" />
+
+                <EditText
+                    android:id="@+id/MNIBP_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:ems="10"
+                    android:hint="MNIBP"
+                    android:inputType="number"
+                    android:maxLength="3" />
+
+                <TextView
+                    android:id="@+id/PPL_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="PPL"
+
+                    />
+
+                <Spinner
+                    android:id="@+id/PPL_spnr"
+                    style="@style/AppTheme.spinner.parameters" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+                <TextView
+                    android:id="@+id/DNIBP_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="DNIBP" />
+
+                <EditText
+                    android:id="@+id/DNIBP_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="DNIBP"
+                    android:inputType="number"
+                    android:maxLength="3" />
+
+                <TextView
+                    android:id="@+id/CO_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="CO"
+
+                    />
+
+                <EditText
+                    android:id="@+id/CO_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="CO"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+                <TextView
+                    android:id="@+id/Events_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="Events" />
+
+                <EditText
+                    android:id="@+id/Events_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:ems="10"
+                    android:hint="Events"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/CI_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="CI"
+
+                    />
+
+                <EditText
+                    android:id="@+id/CI_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="CI"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/AppTheme.ParameterLinearLayout">
+
+                <TextView
+                    android:id="@+id/PVR_txt"
+                    style="@style/AppTheme.textView"
+                    android:text="PVR" />
+
+                <EditText
+                    android:id="@+id/PVR_e_txt"
+                    style="@style/AppTheme.editText.parameters"
+                    android:ems="10"
+                    android:hint="PVR"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    style="@style/AppTheme.textView"
+                    android:text="Comment" />
+
+                <EditText
+                    android:id="@+id/comments"
+                    style="@style/AppTheme.editText.parameters"
+                    android:hint="Comment"
+                    android:inputType="text" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

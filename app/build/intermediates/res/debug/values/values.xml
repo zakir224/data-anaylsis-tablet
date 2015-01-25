@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/icuUpdate/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="blood_type">
+        <item>ABG</item>
+        <item>VBG</item>
+        <item>CAP</item>
+    </string-array>
+    <string-array name="day">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+    </string-array>
+    <string-array name="dial_dose_unit">
+        <item>mcg/kg/min</item>
+        <item>mg/kg/min</item>
+        <item>mcg/kg/hr</item>
+        <item>mg/kg/hr</item>
+        <item>unit/kg/hr</item>
+        <item>unit/kg/min</item>
+    </string-array>
+    <string-array name="peri">
+        <item>Warm</item>
+        <item>Cold</item>
+    </string-array>
+    <string-array name="pprl">
+        <item>0</item>
+        <item>1+</item>
+        <item>2+</item>
+    </string-array>
+    <string-array name="rhythm">
+        <item>Sinus</item>
+        <item>Nodal</item>
+        <item>Pacing</item>
+    </string-array>
+    <string-array name="timePick">
+        <item>8.30</item>
+        <item>9.30</item>
+        <item>10.30</item>
+        <item>11.30</item>
+        <item>12.30</item>
+        <item>13.30</item>
+        <item>14.30</item>
+        <item>15.30</item>
+        <item>16.30</item>
+        <item>17.30</item>
+        <item>18.30</item>
+        <item>19.30</item>
+        <item>20.30</item>
+        <item>21.30</item>
+        <item>22.30</item>
+        <item>23.30</item>
+        <item>0.30</item>
+        <item>1.30</item>
+        <item>2.30</item>
+        <item>3.30</item>
+        <item>4.30</item>
+        <item>5.30</item>
+        <item>6.30</item>
+        <item>7.30</item>
+    </string-array>
+    <!-- From: file:/E:/icuUpdate/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="background">#00BFFF</color>
+    <color name="button_focused">#ff0078a1</color>
+    <color name="button_normal">#ff0082ae</color>
+    <color name="button_pressed">#ff009dd2</color>
+    <color name="even">#ff00a5d8</color>
+    <color name="odd">#79CFFF</color>
+    <!-- From: file:/E:/icuUpdate/app/build/intermediates/exploded-aar/icuUpdate/tableFixHeaders/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="shadow_end">#00000000</color>
+    <color name="shadow_start">#80000000</color>
+    <!-- From: file:/E:/icuUpdate/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/E:/icuUpdate/app/build/intermediates/exploded-aar/icuUpdate/tableFixHeaders/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="shadow_size">8dip</dimen>
+    <!-- From: file:/E:/icuUpdate/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="table_height">50dp</dimen>
+    <dimen name="table_width">100dp</dimen>
+    <!-- From: file:/E:/icuUpdate/app/build/intermediates/exploded-aar/icuUpdate/tableFixHeaders/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <item name="tag_column" type="id"/>
+    <item name="tag_row" type="id"/>
+    <item name="tag_type_view" type="id"/>
+    <!-- From: file:/E:/icuUpdate/app/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
+    <string name="action_forgot_password">Recover lost password</string>
+    <!-- From: file:/E:/icuUpdate/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <!-- From: file:/E:/icuUpdate/app/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
+    <string name="action_sign_in_register"><b>Sign in</b> or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <!-- From: file:/E:/icuUpdate/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">ICU</string>
+    <string name="dial">Dial</string>
+    <string name="dial_text">Dial(ml/h)</string>
+    <string name="dose">Dose</string>
+    <string name="dose_text">Dose</string>
+    <string name="drug_amount_text">Drug amount</string>
+    <string name="enter">Enter</string>
+    <!-- From: file:/E:/icuUpdate/app/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <!-- From: file:/E:/icuUpdate/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="hello_world">Hello world!</string>
+    <string name="login">Login</string>
+    <!-- From: file:/E:/icuUpdate/app/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
+    <string name="login_progress_signing_in">Signing in…</string>
+    <!-- From: file:/E:/icuUpdate/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="network_exeption_msg"> must implement NetworkStateDialogListener</string>
+    <string name="password">Password</string>
+    <string name="patientListActivity">Patient List</string>
+    <!-- From: file:/E:/icuUpdate/app/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <!-- From: file:/E:/icuUpdate/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="saline_text">Saline(ml)</string>
+    <string name="search_hint">Search patient</string>
+    <string name="search_string">Search</string>
+    <!-- From: file:/E:/icuUpdate/app/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
+    <string name="title_activity_login">Sign in</string>
+    <!-- From: file:/E:/icuUpdate/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="unit_text">Unit</string>
+    <string name="username">Username</string>
+    <string name="weight">Weight</string>
+    <!-- From: file:/E:/icuUpdate/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="AppTheme.background">@style/AppTheme.background</item>-->
+        <!--<item name="AppTheme.editText">@style/AppTheme.editText</item>-->
+    </style>
+    <style name="AppTheme.ParameterLinearLayout" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="AppTheme.ProgressDialog" parent="AppTheme.ProgressDialog">
+        <item name="android:background">@android:color/holo_blue_bright</item>
+        <item name="android:dividerHeight">2dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="AppTheme.alternate" parent="AppTheme">
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+    <style name="AppTheme.background">
+        <item name="android:background">#33B5E5</item>
+        <!--<item name="android:background">#00BFFF</item>-->
+        <!--<item name="android:background">@android:color/holo_green_light</item>-->
+    </style>
+    <style name="AppTheme.button">
+        <item name="android:height">30dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">#ff0082ae</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+    <style name="AppTheme.editText">
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+    <style name="AppTheme.editText.login" parent="AppTheme.editText">
+        <item name="android:width">350dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+    <style name="AppTheme.editText.parameters" parent="AppTheme.editText">
+        <item name="android:width">120dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="AppTheme.editText.parameters.dial_dose" parent="AppTheme.editText.parameters">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:ems">10</item>
+        <item name="android:hint">00.00</item>
+    </style>
+    <style name="AppTheme.editText.podTimeSelection" parent="AppTheme.editText.login">
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+    <style name="AppTheme.spinner.list" parent="AppTheme">
+        <item name="android:height">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:paddingLeft">10dp</item>
+        <!--<item name="android:background">@drawable/btn_dropdown</item>-->
+    </style>
+    <style name="AppTheme.spinner.parameters" parent="AppTheme.spinner.list">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <!--<item name="android:background">@android:color/white</item>-->
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="AppTheme.textView" parent="AppTheme">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:color">@android:color/black</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+    <style name="AppTheme.textView.reportHeader" parent="AppTheme.textView">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

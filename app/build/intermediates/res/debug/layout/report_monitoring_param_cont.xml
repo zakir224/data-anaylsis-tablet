@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/AppTheme.textView.reportHeader"
+            android:text="Time"/>
+
+        <TextView
+            style="@style/AppTheme.textView.reportHeader"
+            android:text="events"
+            android:id="@+id/textView19" />
+
+        <TextView
+            style="@style/AppTheme.textView.reportHeader"
+            android:text="pvr"
+            android:id="@+id/textView20" />
+
+        <TextView
+            style="@style/AppTheme.textView.reportHeader"
+            android:text="cvp"
+            android:id="@+id/textView21" />
+
+        <TextView
+            style="@style/AppTheme.textView.reportHeader"
+            android:text="svr"
+            android:id="@+id/textView22" />
+
+        <TextView
+            style="@style/AppTheme.textView.reportHeader"
+            android:text="la"
+            android:id="@+id/textView210" />
+
+        <TextView
+            style="@style/AppTheme.textView.reportHeader"
+            android:text="pap"
+            android:id="@+id/textView23" />
+
+        <TextView
+            style="@style/AppTheme.textView.reportHeader"
+            android:text="peri"
+            android:id="@+id/textView24" />
+
+        <TextView
+            style="@style/AppTheme.textView.reportHeader"
+            android:text="ppr"
+            android:id="@+id/textView25" />
+
+        <TextView
+            style="@style/AppTheme.textView.reportHeader"
+            android:text="ppl"
+            android:id="@+id/textView26" />
+
+        <TextView
+            style="@style/AppTheme.textView.reportHeader"
+            android:text="co"
+            android:id="@+id/textView27" />
+
+        <TextView
+            style="@style/AppTheme.textView.reportHeader"
+            android:text="ci"
+            android:id="@+id/textView28" />
+
+        <TextView
+            style="@style/AppTheme.textView.reportHeader"
+            android:text="comment"
+            android:id="@+id/textView29" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableLayout
+            android:id="@+id/monitoring_table_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+            <!--android:shrinkColumns="*"-->
+            <!--android:stretchColumns="*" -->
+
+
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/E:/icuUpdate/app/src/main/res/layout/report_monitoring_param_cont.xml -->

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/AppTheme.background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="45dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+
+                <LinearLayout
+                    style="@style/AppTheme.ParameterLinearLayout" >
+
+                    <TextView
+                        style="@style/AppTheme.textView"
+                        android:layout_width="match_parent"
+                        android:textSize="20sp"
+                        android:text="Urine"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/AppTheme.ParameterLinearLayout"
+                    >
+
+                    <TextView
+                        android:id="@+id/amt"
+                        style="@style/AppTheme.textView"
+                        android:text="Amount"
+                        />
+
+                    <EditText
+                        android:id="@+id/amt_etxt"
+                        style="@style/AppTheme.editText.parameters"
+                        android:inputType="number"
+                        android:hint="Amt"
+                         >
+
+                        <requestFocus />
+                    </EditText>
+                    <TextView
+                        android:id="@+id/amt_total"
+                        style="@style/AppTheme.textView"
+                        android:text="Total"
+                        />
+
+                    <EditText
+                        android:id="@+id/amt_total_etxt"
+                        style="@style/AppTheme.editText.parameters"
+                        android:hint="Amt_total"
+                        android:enabled="false"
+                        android:textColor="@android:color/black"
+                        android:inputType="number"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/AppTheme.ParameterLinearLayout" >
+
+                    <TextView
+                        style="@style/AppTheme.textView"
+                        android:layout_width="wrap_content"
+                        android:textSize="20sp"
+                        android:text="Chest drainage"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/AppTheme.ParameterLinearLayout">
+
+                    <TextView
+                        style="@style/AppTheme.textView"
+                        android:text="Rt.pl"
+                        />
+
+                    <EditText
+                        android:id="@+id/rt_pl_etxt"
+                        style="@style/AppTheme.editText.parameters"
+                        android:ems="10"
+                        android:hint="Rt.pl"
+                        android:inputType="number"
+                         />
+                    <TextView
+                        android:id="@+id/peric"
+                        style="@style/AppTheme.textView"
+                        android:text="Peric"
+                        />
+
+                    <EditText
+                        android:id="@+id/peric_etxt"
+                        style="@style/AppTheme.editText.parameters"
+                        android:ems="10"
+                        android:hint="Peric"
+                        android:inputType="number"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/AppTheme.ParameterLinearLayout" >
+
+                    <TextView
+                        android:id="@+id/lt_pl"
+                        style="@style/AppTheme.textView"
+                        android:text="Lt.pl"
+                        />
+
+                    <EditText
+                        android:id="@+id/lt_pl_etxt"
+                        style="@style/AppTheme.editText.parameters"
+                        android:ems="10"
+                        android:hint="Lt.pl"
+                        android:inputType="number"
+                         />
+                    <TextView
+                        android:id="@+id/hr_t"
+                        style="@style/AppTheme.textView"
+                        android:text="Hr.t"
+                        />
+
+                    <EditText
+                        android:id="@+id/hr_t_etxt"
+                        style="@style/AppTheme.editText.parameters"
+                        android:ems="10"
+                        android:hint="Hr.t"
+                        android:enabled="false"
+                        android:textColor="@android:color/black"
+                        android:inputType="number"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/AppTheme.ParameterLinearLayout" >
+
+                    <TextView
+                        android:id="@+id/med"
+                        style="@style/AppTheme.textView"
+                        android:text="Med"
+                        />
+
+                    <EditText
+                        android:id="@+id/med_etxt"
+                        style="@style/AppTheme.editText.parameters"
+                        android:ems="10"
+                        android:hint="Med"
+                        android:inputType="number"
+                         />
+                    <TextView
+                        android:id="@+id/g_t"
+                        style="@style/AppTheme.textView"
+                        android:text="G.T"
+                        />
+
+                    <EditText
+                        android:id="@+id/g_t_etxt"
+                        style="@style/AppTheme.editText.parameters"
+                        android:ems="10"
+                        android:hint="g.t"
+                        android:enabled="false"
+                        android:textColor="@android:color/black"
+                        android:inputType="number"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/AppTheme.ParameterLinearLayout" >
+
+                    <TextView
+                        style="@style/AppTheme.textView"
+                        android:layout_width="wrap_content"
+                        android:textSize="20sp"
+                        android:text="Gastric"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/AppTheme.ParameterLinearLayout" >
+
+                    <TextView
+                        android:id="@+id/amt_gastric"
+                        style="@style/AppTheme.textView"
+                        android:text="Amount"
+                        />
+
+                    <EditText
+                        android:id="@+id/amt_gastric_etxt"
+                        style="@style/AppTheme.editText.parameters"
+                        android:ems="10"
+                        android:hint="amt gastric"
+                        android:inputType="number"
+                        />
+                    <TextView
+                        android:id="@+id/total"
+                        style="@style/AppTheme.textView"
+                        android:text="Total"
+                        />
+
+                    <EditText
+                        android:id="@+id/total_etxt"
+                        style="@style/AppTheme.editText.parameters"
+                        android:ems="10"
+                        android:hint="Total"
+                        android:enabled="false"
+                        android:textColor="@android:color/black"
+                        android:inputType="number"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/AppTheme.ParameterLinearLayout" >
+
+                    <TextView
+                        style="@style/AppTheme.textView"
+                        android:layout_width="wrap_content"
+                        android:textSize="20sp"
+                        android:text="Lab"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/AppTheme.ParameterLinearLayout" >
+
+                    <TextView
+                        android:id="@+id/amt_lab"
+                        style="@style/AppTheme.textView"
+                        android:text="Amount"
+                        />
+
+                    <EditText
+                        android:id="@+id/amt_lab_etxt"
+                        style="@style/AppTheme.editText.parameters"
+                        android:ems="10"
+                        android:hint="amt lab"
+                        android:inputType="numberDecimal"
+                        />
+                    <TextView
+                        android:id="@+id/total2"
+                        style="@style/AppTheme.textView"
+                        android:text="Total"
+                        />
+
+                    <EditText
+                        android:id="@+id/total2_etxt"
+                        style="@style/AppTheme.editText.parameters"
+                        android:ems="10"
+                        android:hint="Total"
+                        android:inputType="number"
+                        android:enabled="false"
+                        android:textColor="@android:color/black"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/AppTheme.ParameterLinearLayout" >
+
+                    <TextView
+                        style="@style/AppTheme.textView"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:text="Total Output"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/AppTheme.ParameterLinearLayout" >
+
+                    <TextView
+                        android:id="@+id/total_out"
+                        style="@style/AppTheme.textView"
+                        android:text="Total out"
+                        />
+
+                    <EditText
+                        android:id="@+id/total_out_etxt"
+                        style="@style/AppTheme.editText.parameters"
+                        android:ems="10"
+                        android:hint="Total out"
+                        android:inputType="numberDecimal"
+                        android:enabled="false"
+                        android:textColor="@android:color/black"
+                        />
+                    <TextView
+                        android:id="@+id/outcomm"
+                        style="@style/AppTheme.textView"
+                        android:text="Comments"
+                        />
+
+                    <EditText
+                        android:id="@+id/op_comment"
+                        style="@style/AppTheme.editText.parameters"
+                        android:ems="10"
+                        android:hint="Comments"
+                        android:inputType="text"
+                        />
+                </LinearLayout>
+
+
+        </LinearLayout>
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="vertical"-->
+            <!--android:padding="5dp" >-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_marginBottom="20dp"-->
+                <!--android:orientation="horizontal" >-->
+
+                <!--<TextView-->
+                    <!--style="@style/AppTheme.textView"-->
+                    <!--android:visibility="invisible"-->
+                    <!--/>-->
+
+
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_marginBottom="20dp"-->
+                <!--android:orientation="horizontal" >-->
+
+
+
+            <!--</LinearLayout>-->
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_marginBottom="20dp"-->
+                <!--android:orientation="horizontal" >-->
+
+                <!--<TextView-->
+                    <!--style="@style/AppTheme.textView"-->
+                    <!--android:visibility="invisible"-->
+                    <!--/>-->
+
+            <!--</LinearLayout>-->
+
+
+
+
+        <!--</LinearLayout>-->
+
+</ScrollView>

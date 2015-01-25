@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="AppTheme.background">@style/AppTheme.background</item>-->
+        <!--<item name="AppTheme.editText">@style/AppTheme.editText</item>-->
+    </style>
+
+
+    <style name="AppTheme.background">
+        <item name="android:background">#33B5E5</item>
+        <!--<item name="android:background">#00BFFF</item>-->
+        <!--<item name="android:background">@android:color/holo_green_light</item>-->
+    </style>
+
+    <style name="AppTheme.editText">
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+
+
+    <style name="AppTheme.editText.login" parent="AppTheme.editText">
+        <item name="android:width">350dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="AppTheme.editText.podTimeSelection" parent="AppTheme.editText.login">
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="AppTheme.button">
+        <item name="android:height">30dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">#ff0082ae</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="AppTheme.spinner.list" parent="AppTheme">
+        <item name="android:height">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:paddingLeft">10dp</item>
+        <!--<item name="android:background">@drawable/btn_dropdown</item>-->
+    </style>
+
+    <style name="AppTheme.textView" parent="AppTheme">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:color">@android:color/black</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+    <style name="AppTheme.editText.parameters" parent="AppTheme.editText">
+        <item name="android:width">120dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+
+    <style name="AppTheme.editText.parameters.dial_dose" parent="AppTheme.editText.parameters">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:ems">10</item>
+        <item name="android:hint">00.00</item>
+    </style>
+
+    <style name="AppTheme.alternate" parent="AppTheme">
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+
+    <style name="AppTheme.spinner.parameters" parent="AppTheme.spinner.list">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <!--<item name="android:background">@android:color/white</item>-->
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="AppTheme.ProgressDialog" parent="AppTheme.ProgressDialog">
+        <item name="android:background">@android:color/holo_blue_bright</item>
+        <item name="android:dividerHeight">2dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AppTheme.textView.reportHeader" parent="AppTheme.textView">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="AppTheme.ParameterLinearLayout" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+</resources>
