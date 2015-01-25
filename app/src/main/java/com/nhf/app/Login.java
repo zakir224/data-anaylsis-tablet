@@ -20,7 +20,7 @@ import com.nhf.icu.R;
 
 public class Login extends Activity implements OnClickListener,NetworkConnectionDialog.NetworkStateDialogListener{
 
-    
+
 	Button login;
 	EditText user;
 	EditText pass;
