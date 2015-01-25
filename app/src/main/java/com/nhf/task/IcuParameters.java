@@ -33,8 +33,8 @@ public class IcuParameters {
     public static final String INSERT_PARAM_URL = "";
     public static final String GET_PARAM_URL = "";
     public static final String UPDATE_PARAM_URL = "";
-    //public static final String GET_URL = "http://www.bishwalab.org/index.php/welcome/";
-    public static final String GET_URL = "http://10.0.3.2/ccu1/index.php/welcome/";
+    public static final String GET_URL = "http://www.bishwalab.org/index.php/welcome/";
+//    public static final String GET_URL = "http://10.0.3.2/ccu1/index.php/welcome/";
 
 
     public static void initializeParams(JSONArray jsonArray){
